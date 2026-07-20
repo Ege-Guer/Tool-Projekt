@@ -1,0 +1,29 @@
+# ==== Secrets (NIEMALS committen!) ====
+.env
+.env.*
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+coverage.json
+htmlcov/
+
+# ==== Virtuelle Umgebungen ====
+.venv/
+venv/
+env/
+
+# ==== Laufzeit-/Temp-Dateien der Tools ====
+testpilot_*/
+
+# ==== IDE / OS ====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

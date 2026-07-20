@@ -1,0 +1,17 @@
+# TestPilot – Abhaengigkeiten
+# Web-Oberflaeche
+streamlit>=1.32
+altair>=5.0
+pandas>=2.0
+
+# LLM-Anbindung (OpenAI-kompatibel: ChatAI / OpenAI / Ollama)
+openai>=1.30
+
+# Test-Ausfuehrung & Coverage-Messung (Fitness-Evaluation)
+pytest>=7.4
+coverage>=7.4
+
+# Hinweis: Non-Dominated Sorting / Crowding Distance (NSGA-II) sind in
+# testpilot/pareto.py selbst implementiert. pymoo (aus der Vorlesung) ist
+# NICHT erforderlich, kann aber als Referenz installiert werden:
+# pymoo>=0.6

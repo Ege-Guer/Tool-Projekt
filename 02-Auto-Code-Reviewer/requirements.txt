@@ -1,0 +1,11 @@
+# Auto Code Reviewer – Abhaengigkeiten
+# Web-Oberflaeche
+streamlit>=1.32
+altair>=5.0
+pandas>=2.0
+
+# LLM-Anbindung (OpenAI-kompatibel: ChatAI / OpenAI / Ollama)
+openai>=1.30
+
+# Hinweis: Der Offline-Modus (statische AST-Regeln) benoetigt KEINE dieser
+# Pakete ausser der Standardbibliothek – nur die Web-UI braucht streamlit.
